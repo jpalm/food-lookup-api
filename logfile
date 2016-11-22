@@ -12,3 +12,8 @@ STATEMENT:  DROP USER RAILS
 ERROR:  role "rails" cannot be dropped because some objects depend on it
 DETAIL:  privileges for schema contactbook
 STATEMENT:  DROP USER rails;
+ERROR:  syntax error at or near "from" at character 14
+STATEMENT:  show columns from foodlookup_production;
+FATAL:  database "foodlookup_production" does not exist
+ERROR:  syntax error at or near "from" at character 14
+STATEMENT:  show columns from foods;
